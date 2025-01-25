@@ -6,14 +6,11 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <div className="p-3">
-      <div className="navbar rounded-xl bg-base-200">
+      <div className="navbar rounded-xl border-2">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">Fashion Games</a>
+          <a className="btn btn-ghost"><img src="./public/icons/fashiongames_transparent.png" width={40} /></a>
         </div>
         <div className="flex-none gap-2">
-          <div className="form-control">
-            <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
-          </div>
           <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full">
@@ -25,12 +22,7 @@ createRoot(document.getElementById('root')).render(
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li>
-                <a className="justify-between">
-                  Profile
-                  <span className="badge">New</span>
-                </a>
-              </li>
+              <li><a>Profile</a></li>
               <li><a>Settings</a></li>
               <li><a>Logout</a></li>
             </ul>
@@ -41,5 +33,5 @@ createRoot(document.getElementById('root')).render(
     <div className="ml-3 mr-3 mb-3 p-3 rounded-xl bg-base-200">
       <App />
     </div>
-  </StrictMode>,
+  </StrictMode>
 )
