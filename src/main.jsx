@@ -6,9 +6,9 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <div className="p-3">
-      <div className="navbar rounded-xl border-2">
+      <div className="navbar rounded-xl border-3 border-base-300">
         <div className="flex-1">
-          <a className="btn btn-ghost"><img src="./public/icons/fashiongames_transparent.png" width={40} /></a>
+          <a className="btn btn-ghost btn-circle ml-2" href="/"><img src="/icons/fashiongames_transparent.png" width={40} /></a>
         </div>
         <div className="flex-none gap-2">
           <div className="dropdown dropdown-end">
@@ -21,7 +21,7 @@ createRoot(document.getElementById('root')).render(
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              className="menu dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow-sm">
               <li><a>Profile</a></li>
               <li><a>Settings</a></li>
               <li><a>Logout</a></li>

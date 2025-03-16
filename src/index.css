@@ -1,8 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@plugin "daisyui";
 
 :root {
   font-family: "Pretendard", Helvetica, Arial, sans-serif;
-  
 }
