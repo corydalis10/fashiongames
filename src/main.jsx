@@ -8,7 +8,7 @@ createRoot(document.getElementById('root')).render(
     <div className="p-3">
       <div className="navbar rounded-xl border-3 border-base-300">
         <div className="flex-1">
-          <a className="btn btn-ghost btn-circle ml-2" href="/"><img src="/icons/fashiongames_transparent.png" width={40} /></a>
+          <a className="btn btn-ghost btn-circle ml-2" href="/"><img src="/icons/fashiongames_transparent.svg" width={40} /></a>
         </div>
         <div className="flex-none gap-2">
           <div className="dropdown dropdown-end">
